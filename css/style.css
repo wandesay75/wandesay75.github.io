@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    transition: 0.9s ease;
+}
+
+.navbar:hover{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    transition: 0.9s ease;
+}
+
+.navbarScroll .navbarDark {
+    background-color: #1d1d1d;
+}
+
+
+#beranda{
+    font-family: 'Helvetica', cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero3.jpg);
+    background-color: #1d1d1d;
+    background-size: cover;
+    background-position: center;
+}
+
+.nama{
+    margin-top: 10px;
+    color: #e5e5e5;
+}
+
+.pagar{
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.nama2{
+    color: #e5e5e5;
+    transition: 0.9s ease;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.strip{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.nama2:hover{
+    color: #ff3737;
+    transition: 0.9s ease;
+}
+
+.nama3{
+    color: #e5e5e5;
+    transition: 0.9s ease;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nama3:hover{
+    color: #ff3737;
+    transition: 0.9s ease;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nama4{
+    color: #e5e5e5;
+    transition: 0.9s ease;
+    text-decoration: none;
+}
+
+.nama4:hover{
+    color: #ff3737;
+    transition: 0.9s ease;
+}
+
+.nama5{
+    color: #e5e5e5;
+    transition: 0.9s ease;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.nama5:hover{
+    color: #ff3737;
+    transition: 0.9s ease;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.9s;
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: #ff3737;
+    transition: 0.5s ease;
+}
+
+.navbar ul li a.active{
+    text-decoration: none;
+    color: #ff3737;
+}
+
+a.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Helvetica', cursive;
+    font-weight: 500;
+    color:#FFFFFF;
+    text-align:center;
+    transition: 0.8s ease;
+}
+
+a.button2:hover{
+    color:#1d1d1d;
+    border-color:#DDDDDD;
+    background-color: #DDDDDD;
+    transition: 0.8s ease;
+}
+
+
+.hero h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    transition: 0.6s ease;
+}
+
+.hero h2:hover{
+    color: #ff3737;
+}
+
+#tentangsaya{
+    background-color: #000;
+    color: #e5e5e5;
+    font-family: 'Helvetica', cursive;
+}
+
+/* services section css */
+#pengalaman{
+    background-color: #000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+#portofolio{
+    background-color: #000;
+}
+
+#contact{
+    background-color: #000;
+}
+
+.pengalaman{
+    background-color: #000;
+}
+
+.pengalaman:hover{
+    color: white;
+}
+
+.portfolio{
+    background-color: #000;
+    color: white;
+}
+
+.portfolio:hover{
+    color: white;
+}
+
+
+
+.port:hover{
+    border: 3px solid #ff3737;
+
+}
+
+.servicesText:hover {
+    border: 1px solid #ff3737;
+}
+
+#contact {
+    padding-bottom: 4rem;
+    font-family: 'Oswald', cursive;
+}
+
+.kaki b{
+    color: #ff3737;
+    transition: 0.8s ease;
+    font-family: 'helvetica', cursive;
+}
+
+.kaki b:hover{
+    color: white;
+    transition: 0.8s ease;
+    font-family: 'helvetica', cursive;
+}
+
+@media (max-width: 767px){
+    .navbarScroll.navbarDark {
+        background-color: #1d1d1d;
+    }
+
+    a.button2{
+        display:block;
+    margin:0.4em auto;
+    margin-right: 80px;
+    }
+
+}

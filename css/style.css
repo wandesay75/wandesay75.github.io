@@ -233,4 +233,10 @@ a.button2:hover{
     margin-right: 80px;
     }
 
+    #beranda svg{
+        padding-top: 100px;
+    }
+    .abe{
+       display: none;
+    }
 }

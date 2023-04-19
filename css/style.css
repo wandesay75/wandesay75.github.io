@@ -239,4 +239,9 @@ a.button2:hover{
     .abe{
        display: none;
     }
+
+    img.gntng{
+        margin-top: 50px;
+        margin-right: 50px;
+    }
 }
